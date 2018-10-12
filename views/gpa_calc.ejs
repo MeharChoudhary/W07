@@ -1,0 +1,100 @@
+<% include header %>
+<body background ="/images/mychoic.jpg">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="nav">
+                        <a class="navbar-brand" href="#">CHOUDHARY</a>
+                  <a class="navbar-brand" href="/index">Home</a>
+                  <a class="navbar-brand" href="/gpa_calc">GPA Calculator</a>
+                  <a class="navbar-brand" href="/contact">Contact</a>
+                </div>
+              </nav>
+              
+    <div class="row">
+     <div class="col-md-3"></div>
+    <div class="col-md-6">
+<form id="line">
+        <header> <h1 id="col" color="white"><b>GPA CALCULATOR</b></h1>  </header><br>
+        <div>
+        <table >
+        <tr>
+            <th id="temp1">S.No</th>
+            <th id="temp1"> Course Name</th>
+            <th id="temp1">Grade</th> 
+            <th id="temp1">Credits</th>
+           
+        </tr>
+        <tr>
+            <td class="temp"> 1.</td>
+            <td> 
+                <input id="textbox1" value="JAVA" readonly>                
+              </select>
+            </td>
+            <td> 
+                <select  id="textbox2" >
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>   
+                    <option value="D">D</option>
+                    <option value="F">F</option>
+                    
+                   
+                </select>
+            </td>
+            <td> <input type="text" name="credits1" id="textbox3" placeholder="Enter the credits in integers">  </td>
+        </tr>
+        <tr>
+                <td class="temp"> 2.</td>
+                <td> 
+                        <input id="textbox4" value="WEB APPLICATIONS" readonly>
+                        
+                      </select>
+                    </td>
+                <td> 
+                        <select  id="textbox5">
+                            <option value="A">A</option>
+                            <option value="B">B</option>
+                            <option value="C">C</option>  
+                            <option value="D">D</option> 
+                            <option value="F">F</option>
+                            
+                        </select>
+                    </td>
+                <td> <input type="text" name="credits2" id="textbox6" placeholder="Enter the credits in integers">  </td>
+        </tr>
+        <tr>
+                <td class="temp"> 3.</td>
+                <td> 
+                        
+                                <input id="textbox7" value="ADB" readonly>
+                      </select>
+                    </td>
+                <td> 
+                        <select  id="textbox8">
+                            <option value="A">A</option>
+                            <option value="B">B</option>
+                            <option value="C">C</option>
+                            <option value="D">D</option>   
+                            <option value="F">F</option>
+                            
+                        </select>
+                    </td>
+                <td> <input type="text" name="credits3" id="textbox9" placeholder="Enter the credits in integers">  </td>
+        </tr>
+        </table> 
+        </div>
+        
+        <br><br>
+        <button type="button" onclick="gpa()">Calculate GPA</button><br><br>
+        <table>
+        <tr>
+         <td>   
+        <label class="box"><b><strong>Result</strong></b></label></td>
+        <td><input type="text" name="result" id="textbox10" placeholder="your GPA is"></td>
+        </tr>
+        </table>
+        <br>
+        <button type="button" onclick="reload()">Re-Calculate</button><br>
+
+      </form> 
+    </div>
+<% include footer %>
