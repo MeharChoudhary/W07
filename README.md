@@ -1,8 +1,11 @@
-# your repo name
+# WO7ass
 
 A resume site using Node, Express, BootStrap, EJS
 
 ## How to use
+The index pade consists of information
+When user enters his grade and the credits he will find his 
+When user enters his details in contact page the response is recorded
 
 Fork into your own cloud account. 
 Clone the site to your machine.
