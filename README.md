@@ -1,18 +1,13 @@
-# WO7ass
+# A03ass
 
-A resume site using Node, Express, BootStrap, EJS
+A personal site containig 3 pages home, Calculator page and contact page
 
 ## How to use
-The index pade consists of information
-When user enters his grade and the credits he will find his 
-When user enters his details in contact page the response is recorded
+Home page consists of personal information
 
-Fork into your own cloud account. 
-Clone the site to your machine.
-Open a command window in the new folder.
-Run npm install to install dependencies listed in package.json.
-Run node app.js to start the server.  (Hit CTRL-C to stop.)
+Calculator page is used to calculate gpa
 
+contact page helps to record the contact page
 ```
 > npm install
 > node app.js
